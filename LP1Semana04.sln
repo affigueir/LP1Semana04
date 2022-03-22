@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstMethod", "MyFirstMet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamousQuotes", "FamousQuotes\FamousQuotes.csproj", "{3DAF4583-1D33-48E8-BBDE-8F49154F6078}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{D7FCC148-EAEC-4F25-868E-78B2C54385DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,17 @@ Global
 		{3DAF4583-1D33-48E8-BBDE-8F49154F6078}.Release|x64.Build.0 = Release|Any CPU
 		{3DAF4583-1D33-48E8-BBDE-8F49154F6078}.Release|x86.ActiveCfg = Release|Any CPU
 		{3DAF4583-1D33-48E8-BBDE-8F49154F6078}.Release|x86.Build.0 = Release|Any CPU
+		{D7FCC148-EAEC-4F25-868E-78B2C54385DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7FCC148-EAEC-4F25-868E-78B2C54385DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7FCC148-EAEC-4F25-868E-78B2C54385DB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D7FCC148-EAEC-4F25-868E-78B2C54385DB}.Debug|x64.Build.0 = Debug|Any CPU
+		{D7FCC148-EAEC-4F25-868E-78B2C54385DB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D7FCC148-EAEC-4F25-868E-78B2C54385DB}.Debug|x86.Build.0 = Debug|Any CPU
+		{D7FCC148-EAEC-4F25-868E-78B2C54385DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7FCC148-EAEC-4F25-868E-78B2C54385DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7FCC148-EAEC-4F25-868E-78B2C54385DB}.Release|x64.ActiveCfg = Release|Any CPU
+		{D7FCC148-EAEC-4F25-868E-78B2C54385DB}.Release|x64.Build.0 = Release|Any CPU
+		{D7FCC148-EAEC-4F25-868E-78B2C54385DB}.Release|x86.ActiveCfg = Release|Any CPU
+		{D7FCC148-EAEC-4F25-868E-78B2C54385DB}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
