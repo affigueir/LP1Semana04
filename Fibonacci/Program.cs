@@ -5,10 +5,18 @@ namespace Fibonacci
     class Program
     {
         static void Main(string[] args)
-        {
-            Console.Write("Insira um número: ");
-            int num = int.Parse(Console.ReadLine());
-            Console.WriteLine(Fibonacci(num));
+        {   
+            int aux;
+            if(args.Length > 0)
+            {
+                aux = int.Parse(args[0]);
+            }
+            else
+            {
+                Console.Write("Insira um número: ");
+                aux = int.Parse(Console.ReadLine());
+            }
+            Console.WriteLine(Fibonacci(aux));
         }
 
         private static int Fibonacci(int n)
