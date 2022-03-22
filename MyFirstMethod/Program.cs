@@ -10,14 +10,16 @@ namespace MyFirstMethod
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            Console.WriteLine("Tell me a number:");
+            Console.Write("Tell me a number:");
             int aux = int.Parse(Console.ReadLine());
-            CountToN(aux);
-            CountToN(aux/2);
-            CountTo10();
-            float var = GetRandomNumber();
-            Console.WriteLine(var);
-            ShowPlayerStatus(aux);
+            Console.Write("Tell me another number:");
+            int aux2 = int.Parse(Console.ReadLine());
+            CountToN(aux, aux2);
+            //CountToN(aux/2);
+            //CountTo10();
+            //float var = GetRandomNumber();
+            //Console.WriteLine(var);
+            //ShowPlayerStatus(aux);
         }
         /// <summary>
         /// Asks for value and counts to it
@@ -29,6 +31,27 @@ namespace MyFirstMethod
             {
                 Console.WriteLine(i);
             }
+        }
+        private static void CountToN(int n1, int n2)
+        {
+            if(n1 != n2 && n1 > n2)
+            {
+                for (int i = n2 + 1; i < n1; i++)
+                {
+                    Console.WriteLine(i);
+                }
+
+            }
+            else if(n1 != n2 && n2 > n1)
+            {
+                for (int i = n1 + 1; i < n2; i++)
+                {
+                    Console.WriteLine(i);
+                }
+
+            }
+            else
+                Console.WriteLine("The numbers are equal!");
         }
         /// <summary>
         /// Counts to 10
