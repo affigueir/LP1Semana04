@@ -6,16 +6,18 @@ namespace MyFirstMethod
     {
         static void Main(string[] args)
         {
-            CountTo10();
-            CountTo10();
+            Console.WriteLine("Tell me a number:");
+            int aux = int.Parse(Console.ReadLine());
+            CountToN(aux);
+            CountToN(aux/2);
             float var = GetRandomNumber();
             Console.WriteLine(var);
-            ShowPlayerStatus(1);
+            ShowPlayerStatus(aux);
         }
 
-        private static void CountTo10()
+        private static void CountToN(int n)
         {
-            for(int i = 1; i <= 10; i++)
+            for(int i = 1; i <= n; i++)
             {
                 Console.WriteLine(i);
             }
