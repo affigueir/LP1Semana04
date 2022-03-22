@@ -32,6 +32,11 @@ namespace MyFirstMethod
                 Console.WriteLine(i);
             }
         }
+        /// <summary>
+        /// Counts number in between
+        /// </summary>
+        /// <param name="n1"></param>
+        /// <param name="n2"></param>
         private static void CountToN(int n1, int n2)
         {
             if(n1 != n2 && n1 > n2)
